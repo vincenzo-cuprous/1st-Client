@@ -1,0 +1,21 @@
+.header {
+
+    width: 100%;
+    height: 300vh;
+    padding: 0 10%;
+    background: #f7efef;
+}
+
+/* This is the button of header */
+
+#scroll_up {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #3f51b5;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+    animation-delay: 1.5s;
+}

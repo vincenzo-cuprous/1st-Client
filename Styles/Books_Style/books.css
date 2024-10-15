@@ -1,0 +1,22 @@
+.book_content {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.book_content h1 {
+    padding: 10px 0;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#book {
+    width: 25%;
+}
+
+img {
+    width: 98%;
+    padding: 1%;
+}

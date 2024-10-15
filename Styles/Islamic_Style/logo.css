@@ -1,0 +1,27 @@
+ /* Logo Image */
+
+ a img {
+     width: 15%;
+     position: absolute;
+     left: -1%;
+     top: -6%;
+ }
+
+ a img:hover {
+
+     animation: rotate-left 3s linear infinite;
+     transition: 1s;
+ }
+
+ /* This is the rotation animation */
+
+ @keyframes rotate-left {
+     from {
+         transform: rotate(0deg);
+     }
+
+     to {
+         transform: rotate(-360deg);
+     }
+ }
+

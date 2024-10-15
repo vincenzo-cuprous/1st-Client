@@ -1,0 +1,72 @@
+ /* Header Image */
+
+ .logo {
+     /* background: #d9e0ff; */
+     position: absolute;
+     top: 5%;
+     right: 6%;
+ }
+
+ /* These are the heading images */
+
+ /* This is first  */
+
+ .logo img {
+     display: block;
+     padding-top: 100px;
+     width: 450px;
+     margin-bottom: -205px;
+     animation-delay: 2s;
+ }
+
+ /* This is second */
+
+ .logo_1 {
+     /* background: #d9e0ff; */
+     position: absolute;
+     top: 65%;
+     right: 1%;
+ }
+
+ .logo_1 img {
+     display: block;
+     padding-top: 100px;
+     width: 450px;
+     margin-bottom: -205px;
+     animation-delay: 2s;
+ }
+
+ /* Now this is the third one */
+
+ .logo_2 {
+     /* background: #d9e0ff; */
+     position: absolute;
+     top: 125%;
+     right: 2%;
+ }
+
+ .logo_2 img {
+     display: block;
+     padding-top: 100px;
+     width: 450px;
+     margin-bottom: -205px;
+     animation-delay: 2s;
+ }
+
+ /* Now this is the fourth one. */
+
+
+ .logo_3 {
+     /* background: #d9e0ff; */
+     position: absolute;
+     top: 185%;
+     right: 2%;
+ }
+
+ .logo_3 img {
+     display: block;
+     padding-top: 100px;
+     /* width: 450px; */
+     margin-bottom: -205px;
+     animation-delay: 2s;
+ }

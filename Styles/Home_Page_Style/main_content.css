@@ -1,0 +1,93 @@
+.main_content {
+    margin-top: 130px;
+    max-width: 600px;
+}
+
+.main_content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #3f51b5;
+    animation-delay: 0.5s;
+
+}
+
+.main_content a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #3f51b5;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+    animation-delay: 1.5s;
+}
+
+.main_content p {
+    animation-delay: 1s;
+}
+
+
+/* Beautiful Hover Animation */
+
+.main_content a span {
+    background-image: linear-gradient(45deg, #f06d6d, #4400ff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.right {
+    width: 0;
+    height: 42px;
+}
+
+.right_1 {
+    width: 0;
+    height: 42px;
+}
+
+.right_2 {
+    width: 0;
+    height: 42px;
+}
+
+.right_3 {
+    width: 0;
+    height: 42px;
+}
+
+.main_content a:hover .right {
+    border-radius: 6px;
+    padding: 10px 30px;
+    width: 165px;
+    transition: 0.8s;
+}
+
+.main_content a:hover .right_1 {
+    border-radius: 6px;
+    padding: 10px 30px;
+    width: 234px;
+    transition: 0.8s;
+}
+
+.main_content a:hover .right_2 {
+    border-radius: 6px;
+    padding: 10px 30px;
+    width: 140px;
+    transition: 0.8s;
+}
+
+.main_content a:hover .right_3 {
+    border-radius: 6px;
+    padding: 10px 30px;
+    width: 165px;
+    transition: 0.8s;
+}
+
+/* Customization Of Scroll Button */
+
+#scroll_up {
+    cursor: pointer;
+}
