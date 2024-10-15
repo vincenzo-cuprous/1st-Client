@@ -20,3 +20,64 @@ img {
     width: 98%;
     padding: 1%;
 }
+
+/* Now there is an fine hover effect */
+
+#books_title a {
+    transition: color 0.3s ease;
+    display: inline-block;
+    color: #3f51b5;
+    text-decoration: none;
+    border-radius: 6px;
+    animation-delay: 1.5s;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    transition: 0.8s;
+}
+
+#books_title a:hover {
+    background: #fff;
+
+}
+
+/* Now there is a style of book title */
+
+.book-title {
+    display: none;
+    font-size: 18px;
+    color: #3f51b5;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.column:hover .book-title {
+    display: block;
+}
+
+/* Now this is the beautiful search bar  */
+
+#search {
+    transition: color 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    animation-delay: 1.5s;
+    padding: 10px 30px;
+    background-color: #3f51b5;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#search::placeholder {
+    color: #fff;
+}
+
+#search:hover {
+    background: #fff;
+    transition: 1s;
+}
+
+#search:hover::placeholder {
+    color: #3f51b5;
+}

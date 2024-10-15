@@ -28,5 +28,5 @@ nav a {
 nav a:hover {
     padding: 10px;
     border-bottom: 2px solid #3f51b5;
-    transition: 0.8s;
+    transition: 1s;
 }
