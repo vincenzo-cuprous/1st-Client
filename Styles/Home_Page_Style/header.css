@@ -19,3 +19,11 @@
     border-radius: 6px;
     animation-delay: 1.5s;
 }
+
+/* Responsiveness */
+
+@media screen and (max-width:600px) {
+    .header {
+        height: 200vh;
+    }
+    }

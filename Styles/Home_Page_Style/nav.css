@@ -30,3 +30,66 @@ nav a:hover {
     border-bottom: 2px solid #3f51b5;
     transition: 1s;
 }
+
+#m_nav {
+    display: none;
+}
+
+/* This is the responsiveness */
+
+
+@media screen and (max-width: 600px) {
+
+    #m_nav {
+        display: inline-block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #nav_1 {
+        position: absolute;
+        top: 4.5em;
+        left: 10em;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    #nav_2 {
+        position: absolute;
+        top: 4.5em;
+        left: 13.5em;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    #nav_3 {
+        position: absolute;
+        top: 4.5em;
+        left: 17em;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    #nav_4 {
+        position: absolute;
+        top: 4.5em;
+        left: 24em;
+        z-index: 100;
+        text-decoration: none;
+    }
+
+    #nav {
+        padding: 10px;
+        border-bottom: 2px solid #3f51b5;
+        transition: 1s;
+        z-index: 100;
+    }
+
+    #m_nav .m_nav:hover {
+        padding: 3px;
+        border-bottom: 2px solid #3f51b5;
+        transition: 0.8s;
+    }
+}

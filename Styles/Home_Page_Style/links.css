@@ -1,4 +1,43 @@
-svg{
+svg {
     text-decoration: none;
     display: inline-block;
+    width: auto;
+}
+
+@media screen and (max-width:600px) {
+    #svg_1 {
+        width: 60px;
+        position: absolute;
+        z-index: 100;
+        top: -3%;
+        right: 11em;
+        display: none;
+    }
+
+    #svg_2 {
+        width: 60px;
+        position: absolute;
+        z-index: 100;
+        top: -3%;
+        right: 1em;
+        display: none;
+    }
+
+    #svg_3 {
+        width: 60px;
+        position: absolute;
+        z-index: 100;
+        top: -3%;
+        right: 7.5em;
+        display: none;
+    }
+
+    #svg_4 {
+        width: 60px;
+        position: absolute;
+        z-index: 100;
+        top: -3%;
+        right: 4em;
+        display: none;
+    }
 }

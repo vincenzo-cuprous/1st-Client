@@ -25,3 +25,13 @@
      }
  }
 
+ /* This is the responsiveness */
+
+ @media screen and (max-width: 600px) {
+     a img {
+         width: 28%;
+         position: absolute;
+         left: 0%;
+         top: -5.5%;
+     }
+ }
