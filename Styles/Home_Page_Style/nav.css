@@ -54,6 +54,7 @@ nav a:hover {
         left: 10em;
         z-index: 100;
         text-decoration: none;
+        color: #3f51b5;
     }
 
     #nav_2 {
@@ -62,6 +63,7 @@ nav a:hover {
         left: 13.5em;
         z-index: 100;
         text-decoration: none;
+        color: #3f51b5;
     }
 
     #nav_3 {
@@ -70,6 +72,7 @@ nav a:hover {
         left: 17em;
         z-index: 100;
         text-decoration: none;
+        color: #3f51b5;
     }
 
     #nav_4 {
@@ -78,6 +81,7 @@ nav a:hover {
         left: 24em;
         z-index: 100;
         text-decoration: none;
+        color: #3f51b5;
     }
 
     #nav {
