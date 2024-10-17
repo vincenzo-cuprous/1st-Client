@@ -24,7 +24,7 @@
  .logo_1 {
      /* background: #d9e0ff; */
      position: absolute;
-     top: 65%;
+     top: 68%;
      right: 1%;
  }
 
@@ -215,4 +215,5 @@
          margin-bottom: -205px;
          animation-delay: 2s;
      }
+
  }

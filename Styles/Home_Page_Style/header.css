@@ -25,10 +25,13 @@
 @media screen and (max-width:600px) {
     .header {
         height: 200vh;
+        width: auto;
     }
-    }
+}
+
 @media screen and (max-width:400px) {
     .header {
         height: 190vh;
+        width: auto;
     }
-    }
+}
