@@ -27,3 +27,8 @@
         height: 200vh;
     }
     }
+@media screen and (max-width:400px) {
+    .header {
+        height: 190vh;
+    }
+    }

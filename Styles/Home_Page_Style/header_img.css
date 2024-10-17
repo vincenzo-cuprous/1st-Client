@@ -144,3 +144,75 @@
          animation-delay: 2s;
      }
  }
+
+ @media screen and (max-width:400px) {
+
+     /* For Size */
+
+     .logo img {
+         display: block;
+         padding-top: 100px;
+         width: 200px;
+         margin-bottom: -205px;
+         animation-delay: 2s;
+     }
+
+     /* For Position */
+
+     .logo {
+         /* background: #d9e0ff; */
+         position: absolute;
+         top: 12%;
+         right: 1em;
+     }
+
+     .logo_1 {
+         /* background: #d9e0ff; */
+         position: absolute;
+         top: 49%;
+         right: -10%;
+     }
+
+     .logo_1 img {
+         display: block;
+         padding-top: 100px;
+         width: 190px;
+         margin-bottom: -205px;
+         animation-delay: 2s;
+     }
+
+     /* Now this is the third one */
+
+     .logo_2 {
+         /* background: #d9e0ff; */
+         position: absolute;
+         top: 85%;
+         right: -2%;
+     }
+
+     .logo_2 img {
+         display: block;
+         padding-top: 100px;
+         width: 200px;
+         margin-bottom: -205px;
+         animation-delay: 2s;
+     }
+
+     /* Now this is the fourth one. */
+
+
+     .logo_3 {
+         /* background: #d9e0ff; */
+         position: absolute;
+         top: 120%;
+         right: 1%;
+     }
+
+     .logo_3 img {
+         display: block;
+         padding-top: 100px;
+         width: 200px;
+         margin-bottom: -205px;
+         animation-delay: 2s;
+     }
+ }
