@@ -24,7 +24,7 @@
  .logo_1 {
      /* background: #d9e0ff; */
      position: absolute;
-     top: 68%;
+     top: 65%;
      right: 1%;
  }
 
@@ -169,7 +169,7 @@
      .logo_1 {
          /* background: #d9e0ff; */
          position: absolute;
-         top: 54%;
+         top: 58%;
          right: -10%;
      }
 
@@ -215,5 +215,4 @@
          margin-bottom: -205px;
          animation-delay: 2s;
      }
-
  }
